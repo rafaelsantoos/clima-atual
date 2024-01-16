@@ -1,0 +1,108 @@
+html, body {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(#3B82F6, #4A7DFF);
+}
+body #container {
+  background-color: #F0F8FF;
+  border-radius: 20px;
+  padding: 18px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+body #container #search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  padding: 4px 12px;
+}
+body #container #search input {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  width: 100%;
+}
+body #container #search input:focus {
+  outline: none;
+}
+body #container #search button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+body #weather {
+  margin-top: 20px;
+}
+body #weather #title {
+  text-align: center;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #372F3F;
+  font-size: 32px;
+}
+body #weather #temp {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  background: linear-gradient(90deg, #5A7CDC, #606DDE);
+  color: #FFFFFF;
+  border-radius: 20px;
+  padding: 20px;
+}
+body #weather #temp #temp_img {
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.8));
+}
+body #weather #temp #temp_value {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 55px;
+}
+body #weather #temp #temp_description {
+  font-weight: 500;
+  text-transform: capitalize;
+}
+body #weather #other_infos {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+body #weather .info {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 4px 10px;
+  border-radius: 8px;
+  box-shadow: 0px 0 px 5px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+  gap: 10px;
+}
+body #weather h2 {
+  font-size: 12px;
+  font-weight: 600;
+}
+body #weather i {
+  text-align: center;
+  font-size: 20px;
+  width: 20%;
+}
+body #weather #temp_max_icon {
+  color: #7F1D1D;
+}
+body #weather #temp_min_icon {
+  color: #0284C7;
+}
+body #weather #humidity_icon {
+  color: #0EA5E9;
+}
+body #weather #wind_icon {
+  color: #7C3AED;
+}/*# sourceMappingURL=style.css.map */
